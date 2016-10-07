@@ -1,0 +1,104 @@
+{
+  "project_info": {
+    "project_number": "544677052796",
+    "firebase_url": "https://build-it-bigger-79f07.firebaseio.com",
+    "project_id": "build-it-bigger-79f07",
+    "storage_bucket": "build-it-bigger-79f07.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544677052796:android:153644ff54e44e12",
+        "android_client_info": {
+          "package_name": "com.vamsi.builditbigger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "544677052796-pqi6v2of820u6k9indfllunchi8qvhjn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCx2hKk8FmyTs9bLEEeh9gBWTfAXt0EIYA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544677052796:android:5d7b50c7de51fa00",
+        "android_client_info": {
+          "package_name": "com.vamsi.builditbigger.free"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "544677052796-pqi6v2of820u6k9indfllunchi8qvhjn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCx2hKk8FmyTs9bLEEeh9gBWTfAXt0EIYA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544677052796:android:d72b6df02991e83e",
+        "android_client_info": {
+          "package_name": "com.vamsi.builditbigger.paid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "544677052796-pqi6v2of820u6k9indfllunchi8qvhjn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCx2hKk8FmyTs9bLEEeh9gBWTfAXt0EIYA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
