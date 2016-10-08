@@ -17,7 +17,4 @@ public class MyBean {
         return tellJoke.getJoke();
     }
 
-   /* public void setData(String data) {
-        myData = data;
-    }
-*/}
+  }

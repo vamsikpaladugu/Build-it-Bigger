@@ -98,5 +98,4 @@ public class MainActivity extends ActionBarActivity {
         mInterstitialAd.loadAd(adRequest);
     }
 
-
 }

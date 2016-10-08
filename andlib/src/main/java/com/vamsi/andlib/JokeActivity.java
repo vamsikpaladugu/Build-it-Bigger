@@ -28,6 +28,4 @@ public class JokeActivity extends AppCompatActivity {
 
     }
 
-
-
 }

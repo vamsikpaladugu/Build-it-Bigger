@@ -55,6 +55,7 @@ public class MainActivity extends ActionBarActivity {
     }
 
 
+    //start JokeActivity
     public void start(String result) {
         mainFragment.spinner.setVisibility(View.GONE);
         JokeActivity.startActivity(this, result);

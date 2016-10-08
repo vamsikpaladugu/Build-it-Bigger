@@ -37,7 +37,7 @@ public class TestAsyn extends TestCase implements GCEPointsAsynTask.JsonGetTaskL
 
     @Override
     public void onComplete(String jsonString, Exception e) {
-        Log.v("jsonString",jsonString);
+        Log.d("TestAsyn",jsonString);
 
         result = jsonString;
 

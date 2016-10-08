@@ -18,28 +18,12 @@ import static org.junit.Assert.*;
  * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
  */
 @RunWith(AndroidJUnit4.class)
-public class ExampleInstrumentedTest implements GCEPointsAsynTask.JsonGetTaskListener {
-
-    GCEPointsAsynTask downloader;
-    CountDownLatch signal;
-
-    @Before
-    protected void setUp() throws Exception {
-
-        signal = new CountDownLatch(1);
-        //downloader = new GCEPointsAsynTask(getClass());
-    }
-
+public class ExampleInstrumentedTest {
     @Test
     public void useAppContext() throws Exception {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
         assertEquals("com.vamsi.builditbigger", appContext.getPackageName());
-    }
-
-    @Override
-    public void onComplete(String jsonString, Exception e) {
-
     }
 }

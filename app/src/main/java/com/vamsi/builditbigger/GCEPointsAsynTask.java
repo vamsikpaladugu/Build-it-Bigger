@@ -40,7 +40,6 @@ import java.io.IOException;
         if(myApiService == null) {  // Only do this once
             MyApi.Builder builder = new MyApi.Builder(AndroidHttp.newCompatibleTransport(), new AndroidJsonFactory(), null)
                     .setRootUrl("https://maximal-coast-145518.appspot.com/_ah/api/");
-            // end options for devappserver
 
             myApiService = builder.build();
         }
@@ -63,16 +62,13 @@ import java.io.IOException;
         }else {
             ((MainActivity) context).start(result);
         }
-        //Toast.makeText(context, result, Toast.LENGTH_LONG).show();
+
     }
 
 
-    //for testing perpus
-
-
-    public static interface JsonGetTaskListener {
-        public void onComplete(String jsonString, Exception e);
+    //for testing purpose
+    public interface JsonGetTaskListener {
+        void onComplete(String jsonString, Exception e);
     }
-
 
 }
